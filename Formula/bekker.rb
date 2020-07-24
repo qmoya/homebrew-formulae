@@ -1,7 +1,8 @@
 class Bekker < Formula
-  desc "A Perseus-XML-to-Roam-Research converter"
+  desc "Perseus-XML-to-Roam-Research converter"
   homepage "https://github.com/qmoya/Bekker"
-  head "https://github.com/qmoya/Bekker", :branch => :master
+  url "https://github.com/qmoya/Bekker.git", :tag => "0.0.2", :revision => "44dbae9d64e8a78ac84444d14f82c9e919bf1e11"
+  head "https://github.com/qmoya/Bekker", :shallow => false
 
   depends_on "unibetacode" => :build
 
